@@ -10,7 +10,7 @@ public class App {
         HelloWorld beanTwo = applicationContext.getBean("helloworld", HelloWorld.class);
         Cat catBean1 = applicationContext.getBean("cat", Cat.class);
         Cat catBean2 = applicationContext.getBean("cat", Cat.class);
-        System.out.println("Сравнение первых двух бинов" + (beanOne == beanTwo));
-        System.out.println("Сравнение вторых двух бинов" + (catBean1 == catBean2));
+        System.out.println("Сравнение первых двух бинов: " + (beanOne == beanTwo));
+        System.out.println("Сравнение вторых двух бинов: " + (catBean1 == catBean2));
     }
 }
